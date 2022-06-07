@@ -12,8 +12,8 @@ namespace ChristmasWithTypes
             var xmasDay = Christmas.Day.Thursday;
 
 
-            
-            
+
+
 
             //TODO set Santa's name to Kris Kringle
             xmas.Santa = "Kris Kringle";
@@ -22,7 +22,7 @@ namespace ChristmasWithTypes
             xmas.Presents = new string[3] { "Iphone 12", "Airpods", " Macbook Pro" };
             //TODO Set the TreeHeight to 10
             xmas.TreeHeight = 10;
-            
+
 
             Console.WriteLine($"This year christmas falls on {xmasDay} \n");
             Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
